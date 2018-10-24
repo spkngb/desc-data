@@ -1,3 +1,37 @@
 baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "desc"
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.ru]
+    languageName = "Русский язык [ru]"
+    title = "Киоск"
+    weight = 1
+    contentDir = "content/ru"
+    description = "description-ru"
+    [languages.ru.params]
+      [languages.ru.params.navigation]
+        help = "Помощь"
+  [languages.kz]
+    languageName = "Қазақ тілі [kz]"
+    title = "Киоск"
+    weight = 2
+    contentDir = "content/kz"
+    description = "description-kz"
+    [languages.kz.params]
+      [languages.kz.params.navigation]
+        help = "Көмек"
+  [languages.en]
+    languageName = "English [en]"
+    title = "Kiosk"
+    weight = 3
+    contentDir = "content/en"
+    description = "description-en"
+    [languages.en.params]
+      [languages.en.params.navigation]
+        help = "Help"
+[params]
+  description = "description"
+  [params.navigation]
+    help = "Help"
