@@ -6,28 +6,28 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.ru]
     languageName = "Русский язык [ru]"
-    title = "Киоск"
+    title = "КазНИИ ГБ"
     weight = 1
     contentDir = "content/ru"
-    description = "description-ru"
+    description = "Казахский ордена \"Знак почета\" научно-исследовательский институт глазных болезней"
     [languages.ru.params]
       [languages.ru.params.navigation]
         help = "Помощь"
   [languages.kz]
     languageName = "Қазақ тілі [kz]"
-    title = "Киоск"
+    title = "ҚазКА ҒЗИ"
     weight = 2
     contentDir = "content/kz"
-    description = "description-kz"
+    description = "\"Құрмет белгісі\" орденді Қазақ көз аурулары ғылыми-зерттеу институты"
     [languages.kz.params]
       [languages.kz.params.navigation]
         help = "Көмек"
   [languages.en]
     languageName = "English [en]"
-    title = "Kiosk"
+    title = "KazNII GB"
     weight = 3
     contentDir = "content/en"
-    description = "description-en"
+    description = "Kazakhskiy ordena \"Znak pocheta\" nauchno-issledovatelskiy institut glaznykh bolezney"
     [languages.en.params]
       [languages.en.params.navigation]
         help = "Help"
